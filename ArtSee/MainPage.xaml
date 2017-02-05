@@ -8,6 +8,9 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="dislike" Content="Dislike" Height="60" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="144" Background="#CCF3350B"/>
+        <Button x:Name="like" Content="Like" Height="60" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="144" Background="#CC4AD123" HorizontalAlignment="Right" d:LayoutOverrides="LeftMargin, RightMargin"/>
+        <TextBox x:Name="Artsee" Height="80" Margin="84,10,40,0" TextWrapping="Wrap" Text="artsee" VerticalAlignment="Top" FontFamily="Brushed" FontSize="55" TextChanged="Artsee_TextChanged" RenderTransformOrigin="-0.034,0.325"/>
 
     </Grid>
 </Page>

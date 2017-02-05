@@ -26,5 +26,10 @@ namespace ArtSee
         {
             this.InitializeComponent();
         }
+
+        private void Artsee_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
